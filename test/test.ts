@@ -1,12 +1,20 @@
 import * as http from "../index";
 
-http.createClient(8080, "https://github.com");
+////////////////////////////////////////////////////
+/// Http tests : http://nodejs.org/api/http.html
+////////////////////////////////////////////////////
+module http_tests {
+    // Status codes
+    var code = 100;
+    var codeMessage = http.STATUS_CODES['400'];
+    var codeMessage = http.STATUS_CODES[400];
 
-http.createServer((req, res) => {
-	req.on('connect', blah => {
-		
+	var agent: http.Agent = new http.Agent({
+		keepAlive: true,
+		keepAliveMsecs: 10000,
+		maxSockets: Infinity,
+		maxFreeSockets: 256
 	});
-	res.end(new Buffer(""), _ => {
-		
-	});
-});
+
+	var agent: http.Agent = http.globalAgent;
+}
