@@ -1,0 +1,32 @@
+{
+  "name": "typed-http",
+  "version": "1.0.0",
+  "description": "TypeScript typings for the core http library",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/weswigham/typed-http.git"
+  },
+  "keywords": [
+    "typescript",
+    "http",
+    "typed",
+    "module",
+    "definitely"
+  ],
+  "author": "weswigham",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/weswigham/typed-http/issues"
+  },
+  "homepage": "https://github.com/weswigham/typed-http#readme",
+  "dependencies": {
+    "typed-node": "1.0.0",
+    "typed-net": "1.0.0",
+    "typed-events": "1.0.0",
+    "typed-stream": "1.0.0"
+  }
+}
