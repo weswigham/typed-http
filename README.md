@@ -1,4 +1,4 @@
-typed-http
+typed-http [![Build Status](https://travis-ci.org/weswigham/typed-http.svg)](https://travis-ci.org/weswigham/typed-http)
 ============
 
 TypeScript typings for the core http library
