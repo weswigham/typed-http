@@ -6,7 +6,7 @@ TypeScript typings for the core http library
 Usage
 =====
 
-First, add it to your `package.json` and isntall it:
+First, add it to your `package.json` and install it:
 ```cmd
 npm install --save typed-http
 ```
